@@ -44,6 +44,8 @@ int main()
                 cout << "Insufficient balance" << endl;
             }
             break;
+        default:
+            cout << "Invalid option" << endl;
         }
     } while (option != 4);
 
